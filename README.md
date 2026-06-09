@@ -103,7 +103,9 @@ On startup, the backend database is automatically seeded with these demo users t
 
 ---
 
-### Step 2: Frontend Setup
+### Step 2: Frontend Setup (Two Options)
+
+#### Option A: React + Tailwind CSS Frontend
 1. Open a new terminal window, navigate to the `frontend/` directory, and install npm packages:
    ```bash
    cd frontend
@@ -113,7 +115,14 @@ On startup, the backend database is automatically seeded with these demo users t
    ```bash
    npm run dev
    ```
-   - Web application: [http://localhost:5173](http://localhost:5173)
+   - Web application: http://localhost:5173
+
+#### Option B: Streamlit Frontend
+1. Open a new terminal window (ensure your python environment is active), and run:
+   ```bash
+   streamlit run frontend/app.py
+   ```
+   - Web application: http://localhost:8501
 
 ---
 
